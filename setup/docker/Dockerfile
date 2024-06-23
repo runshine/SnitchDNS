@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG INSTALL_PATH=/opt/snitchdns
 ARG DATA_PATH=$INSTALL_PATH/data
 ARG CONFIG_PATH=$DATA_PATH/config
-ARG REPO=https://github.com/ctxis/SnitchDNS
+ARG REPO=https://github.com/runshine/SnitchDNS
 
 # Configuration.
 ARG SNITCHDNS_DBMS=sqlite
@@ -13,7 +13,7 @@ ARG SNITCHDNS_DB_USER=none
 ARG SNITCHDNS_DB_PW=none
 ARG SNITCHDNS_DB_URL=none
 ARG SNITCHDNS_DB_DB=none
-ARG SNITCHDNS_SECRET_KEY=RosesAreRedVioletsAreBlueThisMustBeSecretAsWellAsLongToo
+ARG SNITCHDNS_SECRET_KEY=RosesAreRedVioletsAreBlueThisMustBeSecretAsWellAsLongToo1
 
 ARG SNITCH_DOMAIN=www.snitch.docker
 ARG BASE_DOMAIN=snitchdns.docker
