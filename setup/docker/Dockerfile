@@ -30,7 +30,7 @@ RUN apt update && \
     libpq-dev \
     apache2 \
     openssl \
-    cron \
+    cron libffi-dev \
     iptables && rm -rf /var/lib/apt/lists/*
 
 # Install SnitchDNS.
