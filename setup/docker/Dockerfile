@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Locations.
@@ -30,7 +30,7 @@ RUN apt update && \
     libpq-dev \
     apache2 \
     openssl \
-    cron libffi-dev \
+    cron libffi-dev runstc \
     iptables && rm -rf /var/lib/apt/lists/*
 
 # Install SnitchDNS.
