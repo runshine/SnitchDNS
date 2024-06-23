@@ -37,6 +37,6 @@ jobs:
           push: true
           tags: |
             runshine0819/snitchdns:latest
-            ghcr.io/runshine/SnitchDNS:latest
+            ghcr.io/runshine/snitchdns:latest
           file: setup/docker/Dockerfile
 
